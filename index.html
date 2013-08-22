@@ -4,4 +4,9 @@ layout: default
 
 <p>hello world. i am learning Github. How cool is that?!</p>
 
+<h2>Blogposts</h2>
+
+{% for post in site.posts %}
+  {{ post.title }}
+{% endfor %}
 
